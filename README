@@ -1,0 +1,7 @@
+scaffold. n. A temporary framework or platform.
+
+This code is not stable for production use. I welcome testing, feedback, and contributions.
+
+The HTML 5 Scaffold is being built in a modular way to allow people to pick and choose.
+
+The first module is the Sectioning Module which includes a parsing.js to allow IE to correctly parse these new elements, as well as core.css to add the required default styling and style.css to add optional default styling as defined by the HTML 5 specification.
