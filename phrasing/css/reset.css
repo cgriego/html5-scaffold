@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@namespace "http://www.w3.org/1999/xhtml";
+
+abbr[title] {
+  text-decoration: none;
+  border-bottom: none 0;
+}
+
+mark {
+  background-color: transparent;
+}

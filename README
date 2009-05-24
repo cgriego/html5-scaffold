@@ -1,7 +1,15 @@
+HTML 5 Scaffold: Front-end modules to help you use HTML 5 today.
 scaffold. n. A temporary framework or platform.
 
 This code is not stable for production use. I welcome testing, feedback, and contributions.
 
-The HTML 5 Scaffold is being built in a modular way to allow people to pick and choose.
+Modules:
+  - Sectioning (article, aside, footer, header, hgroup, nav, section)
+  - Grouping (dialog)
+  - Phrasing (abbr, mark, meter, progress, time)
 
-The first module is the Sectioning Module which includes a JavaScript-based parsing fix to allow IE to correctly parse these new elements, as well as CSS to set the core and default styles as well as a reset that can be used with user agents that have added support for these elements.
+Common module files:
+  - parsing-ie.js  Allows IE to correctly parse and style new HTML 5 elements.
+  - core.css       Applies core styles for new elements such as display type.
+  - defaults.css   Applies default styles to an element that a browser would be expected to apply.
+  - reset.css      Applies reset styles for new elements should a browser add support.

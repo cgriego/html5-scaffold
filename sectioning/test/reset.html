@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sectioning Reset Test</title>
+  
+  <!--[if IE]><script src="../js/parsing-ie.js" charset="UTF-8"></script><![endif]-->
+  <link rel="stylesheet" type="text/css" href="../css/core.css" />
+  <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+</head>
+<body>
+  <h1>Heading</h1>
+  
+  <section>
+    <header>
+      <h1>Section</h1>
+    </header>
+    
+    <section>
+      <header>
+        <hgroup>
+          <h1>Section</h1>
+          <h2>Nested</h2>
+        </hgroup>
+        
+        <nav>
+          <h1>Nav</h1>
+        </nav>
+      </header>
+      
+      <article>
+        <header>
+          <h1>Article</h1>
+        </header>
+        
+        <aside>
+          <h1>Aside</h1>
+        </aside>
+      </article>
+    </section>
+    
+    <footer>
+      <p>Footer</p>
+    </footer>
+  </section>
+</body>
+</html>
