@@ -1,18 +1,18 @@
 (function() {
-  if (/*@cc_on!@*/0) { // prevent execution outside Internet Explorer
-    var blockElements = [
-      article,
-      aside,
-      footer,
-      header,
-      hgroup,
-      nav,
-      section//,
+  if (/*@cc_on!@*/0) { // execute only in Internet Explorer
+    var elements = [
+      "article",
+      "aside",
+      "footer",
+      "header",
+      "hgroup",
+      "nav",
+      "section"//,
     ],
-    i = blockElements.length;
+    i = elements.length;
     
     while (i--) {
-      document.createElement(blockElements[i]);
+      document.createElement(elements[i]);
     }
   }
 })();
