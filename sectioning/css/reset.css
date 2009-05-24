@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@namespace "http://www.w3.org/1999/xhtml";
+
+article,
+aside,
+nav,
+section {
+	margin: 0;
+}
+
+h1 {
+	font-size: 1em;
+	margin:    0;
+}
