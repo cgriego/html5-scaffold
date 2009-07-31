@@ -1,14 +1,6 @@
 @charset "UTF-8";
 @namespace "http://www.w3.org/1999/xhtml";
 
-article,
-aside,
-nav,
-section {
-  margin-top:    1em;
-  margin-bottom: 1em;
-}
-
 article h1,
 aside   h1,
 nav     h1,
