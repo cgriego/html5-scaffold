@@ -5,7 +5,6 @@ This code is not stable for production use. I welcome testing, feedback, and con
 
 Modules:
   - Sectioning (article, aside, footer, header, hgroup, nav, section)
-  - Grouping (dialog)
   - Phrasing (abbr, mark, meter, progress, time)
 
 Common module files:
